@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2112DCC11A1F1C3D00C9FD5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2112DCC01A1F1C3D00C9FD5F /* AppDelegate.swift */; };
-		2112DCC31A1F1C3D00C9FD5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2112DCC21A1F1C3D00C9FD5F /* ViewController.swift */; };
-		2112DCC61A1F1C3D00C9FD5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2112DCC41A1F1C3D00C9FD5F /* Main.storyboard */; };
+		2112DCC31A1F1C3D00C9FD5F /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2112DCC21A1F1C3D00C9FD5F /* EventsViewController.swift */; };
 		2112DCC81A1F1C3D00C9FD5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2112DCC71A1F1C3D00C9FD5F /* Images.xcassets */; };
 		2112DCCB1A1F1C3D00C9FD5F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2112DCC91A1F1C3D00C9FD5F /* LaunchScreen.xib */; };
 		2112DCD71A1F1C3D00C9FD5F /* LivLiveiOSv2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2112DCD61A1F1C3D00C9FD5F /* LivLiveiOSv2Tests.swift */; };
+		2112DCE11A1F237A00C9FD5F /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2112DCE01A1F237A00C9FD5F /* EventCell.swift */; };
+		2112DCE31A1F23E500C9FD5F /* EventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2112DCE21A1F23E500C9FD5F /* EventCell.xib */; };
+		21870B931A1F924100985F6A /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21870B921A1F924100985F6A /* EventDetailViewController.swift */; };
+		21870B951A1F925300985F6A /* EventDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21870B941A1F925300985F6A /* EventDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		2112DCBB1A1F1C3D00C9FD5F /* LivLiveiOSv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivLiveiOSv2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2112DCBF1A1F1C3D00C9FD5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2112DCC01A1F1C3D00C9FD5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2112DCC21A1F1C3D00C9FD5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2112DCC51A1F1C3D00C9FD5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2112DCC21A1F1C3D00C9FD5F /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		2112DCC71A1F1C3D00C9FD5F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2112DCCA1A1F1C3D00C9FD5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2112DCD01A1F1C3D00C9FD5F /* LivLiveiOSv2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LivLiveiOSv2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2112DCD51A1F1C3D00C9FD5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2112DCD61A1F1C3D00C9FD5F /* LivLiveiOSv2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivLiveiOSv2Tests.swift; sourceTree = "<group>"; };
+		2112DCE01A1F237A00C9FD5F /* EventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		2112DCE21A1F23E500C9FD5F /* EventCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventCell.xib; sourceTree = "<group>"; };
+		21870B921A1F924100985F6A /* EventDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
+		21870B941A1F925300985F6A /* EventDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +84,11 @@
 			isa = PBXGroup;
 			children = (
 				2112DCC01A1F1C3D00C9FD5F /* AppDelegate.swift */,
-				2112DCC21A1F1C3D00C9FD5F /* ViewController.swift */,
-				2112DCC41A1F1C3D00C9FD5F /* Main.storyboard */,
+				2112DCC21A1F1C3D00C9FD5F /* EventsViewController.swift */,
+				21870B921A1F924100985F6A /* EventDetailViewController.swift */,
+				21870B941A1F925300985F6A /* EventDetailViewController.xib */,
+				2112DCE01A1F237A00C9FD5F /* EventCell.swift */,
+				2112DCE21A1F23E500C9FD5F /* EventCell.xib */,
 				2112DCC71A1F1C3D00C9FD5F /* Images.xcassets */,
 				2112DCC91A1F1C3D00C9FD5F /* LaunchScreen.xib */,
 				2112DCBE1A1F1C3D00C9FD5F /* Supporting Files */,
@@ -192,8 +201,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2112DCC61A1F1C3D00C9FD5F /* Main.storyboard in Resources */,
 				2112DCCB1A1F1C3D00C9FD5F /* LaunchScreen.xib in Resources */,
+				2112DCE31A1F23E500C9FD5F /* EventCell.xib in Resources */,
+				21870B951A1F925300985F6A /* EventDetailViewController.xib in Resources */,
 				2112DCC81A1F1C3D00C9FD5F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2112DCC31A1F1C3D00C9FD5F /* ViewController.swift in Sources */,
+				2112DCC31A1F1C3D00C9FD5F /* EventsViewController.swift in Sources */,
+				2112DCE11A1F237A00C9FD5F /* EventCell.swift in Sources */,
+				21870B931A1F924100985F6A /* EventDetailViewController.swift in Sources */,
 				2112DCC11A1F1C3D00C9FD5F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,14 +248,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2112DCC41A1F1C3D00C9FD5F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2112DCC51A1F1C3D00C9FD5F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2112DCC91A1F1C3D00C9FD5F /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -405,6 +409,7 @@
 				2112DCDC1A1F1C3D00C9FD5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2112DCDD1A1F1C3D00C9FD5F /* Build configuration list for PBXNativeTarget "LivLiveiOSv2Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				2112DCDF1A1F1C3D00C9FD5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

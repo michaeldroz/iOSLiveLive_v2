@@ -10,12 +10,29 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+        //create a EventsViewController
+        let evc = EventsViewController(style: .Plain)
+        
+        //Place EventsViewController table view in the window hierarchy
+        
+        //create an instance of UINavigationController
+        let navController = UINavigationController(rootViewController: evc)
+        
+        //Place nav controller's view in the window hierarchy
+        window!.rootViewController = navController
+        
+        window!.backgroundColor = UIColor.whiteColor()
+        window!.makeKeyAndVisible()
+        
         return true
     }
 

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LivLiveiOSv2/EventsViewController.swift"
+            timestampString = "438276334.758457"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "fetchFeed()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LivLiveiOSv2/EventCell.swift"
+            timestampString = "438276249.920317"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "EventCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LivLiveiOSv2.EventCell.eventTitle.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UILabel&gt;"
+                  moduleName = "LivLiveiOSv2"
+                  urlString = "file:///Users/michael.droz/Desktop/iOSProjects/LivLiveiOSv2/LivLiveiOSv2/EventCell.swift"
+                  timestampString = "438276249.939429"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LivLiveiOSv2.EventCell.eventTitle.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UILabel&gt;"
+                  moduleName = "LivLiveiOSv2"
+                  urlString = "file:///Users/michael.droz/Desktop/iOSProjects/LivLiveiOSv2/LivLiveiOSv2/EventCell.swift"
+                  timestampString = "438276249.940543"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LivLiveiOSv2.EventCell.eventTitle.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UILabel&gt;"
+                  moduleName = "LivLiveiOSv2"
+                  urlString = "file:///Users/michael.droz/Desktop/iOSProjects/LivLiveiOSv2/LivLiveiOSv2/EventCell.swift"
+                  timestampString = "438276249.940691"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LivLiveiOSv2.EventCell.init (LivLiveiOSv2.EventCell.Type)(style : C.UITableViewCellStyle, reuseIdentifier : Swift.Optional&lt;Swift.String&gt;) -&gt; LivLiveiOSv2.EventCell"
+                  moduleName = "LivLiveiOSv2"
+                  urlString = "file:///Users/michael.droz/Desktop/iOSProjects/LivLiveiOSv2/LivLiveiOSv2/EventCell.swift"
+                  timestampString = "438276249.940793"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LivLiveiOSv2.EventCell.init (LivLiveiOSv2.EventCell.Type)(frame : C.CGRect) -&gt; LivLiveiOSv2.EventCell"
+                  moduleName = "LivLiveiOSv2"
+                  urlString = "file:///Users/michael.droz/Desktop/iOSProjects/LivLiveiOSv2/LivLiveiOSv2/EventCell.swift"
+                  timestampString = "438276249.940888"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "47">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LivLiveiOSv2.EventCell.init (LivLiveiOSv2.EventCell.Type)() -&gt; LivLiveiOSv2.EventCell"
+                  moduleName = "LivLiveiOSv2"
+                  urlString = "file:///Users/michael.droz/Desktop/iOSProjects/LivLiveiOSv2/LivLiveiOSv2/EventCell.swift"
+                  timestampString = "438276249.941002"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LivLiveiOSv2.EventCell.init (LivLiveiOSv2.EventCell.Type)(coder : ObjectiveC.NSCoder) -&gt; LivLiveiOSv2.EventCell"
+                  moduleName = "LivLiveiOSv2"
+                  urlString = "file:///Users/michael.droz/Desktop/iOSProjects/LivLiveiOSv2/LivLiveiOSv2/EventCell.swift"
+                  timestampString = "438276249.941113"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
