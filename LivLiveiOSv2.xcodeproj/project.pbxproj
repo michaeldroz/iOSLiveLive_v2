@@ -16,6 +16,10 @@
 		2112DCE31A1F23E500C9FD5F /* EventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2112DCE21A1F23E500C9FD5F /* EventCell.xib */; };
 		21870B931A1F924100985F6A /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21870B921A1F924100985F6A /* EventDetailViewController.swift */; };
 		21870B951A1F925300985F6A /* EventDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21870B941A1F925300985F6A /* EventDetailViewController.xib */; };
+		21DDCF291A200BD000BCBC55 /* EventTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21DDCF281A200BD000BCBC55 /* EventTextCell.xib */; };
+		21DDCF2B1A200BDE00BCBC55 /* EventImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21DDCF2A1A200BDE00BCBC55 /* EventImageCell.xib */; };
+		21DDCF2D1A200BEF00BCBC55 /* EventVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21DDCF2C1A200BEF00BCBC55 /* EventVideoCell.xib */; };
+		21DDCF2F1A200EF900BCBC55 /* ProjectNotes in Resources */ = {isa = PBXBuildFile; fileRef = 21DDCF2E1A200EF900BCBC55 /* ProjectNotes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,10 @@
 		2112DCE21A1F23E500C9FD5F /* EventCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventCell.xib; sourceTree = "<group>"; };
 		21870B921A1F924100985F6A /* EventDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
 		21870B941A1F925300985F6A /* EventDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventDetailViewController.xib; sourceTree = "<group>"; };
+		21DDCF281A200BD000BCBC55 /* EventTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventTextCell.xib; sourceTree = "<group>"; };
+		21DDCF2A1A200BDE00BCBC55 /* EventImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventImageCell.xib; sourceTree = "<group>"; };
+		21DDCF2C1A200BEF00BCBC55 /* EventVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventVideoCell.xib; sourceTree = "<group>"; };
+		21DDCF2E1A200EF900BCBC55 /* ProjectNotes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ProjectNotes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +95,12 @@
 				2112DCC21A1F1C3D00C9FD5F /* EventsViewController.swift */,
 				21870B921A1F924100985F6A /* EventDetailViewController.swift */,
 				21870B941A1F925300985F6A /* EventDetailViewController.xib */,
+				21DDCF2E1A200EF900BCBC55 /* ProjectNotes */,
 				2112DCE01A1F237A00C9FD5F /* EventCell.swift */,
 				2112DCE21A1F23E500C9FD5F /* EventCell.xib */,
+				21DDCF281A200BD000BCBC55 /* EventTextCell.xib */,
+				21DDCF2A1A200BDE00BCBC55 /* EventImageCell.xib */,
+				21DDCF2C1A200BEF00BCBC55 /* EventVideoCell.xib */,
 				2112DCC71A1F1C3D00C9FD5F /* Images.xcassets */,
 				2112DCC91A1F1C3D00C9FD5F /* LaunchScreen.xib */,
 				2112DCBE1A1F1C3D00C9FD5F /* Supporting Files */,
@@ -201,9 +213,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21DDCF291A200BD000BCBC55 /* EventTextCell.xib in Resources */,
 				2112DCCB1A1F1C3D00C9FD5F /* LaunchScreen.xib in Resources */,
+				21DDCF2D1A200BEF00BCBC55 /* EventVideoCell.xib in Resources */,
 				2112DCE31A1F23E500C9FD5F /* EventCell.xib in Resources */,
+				21DDCF2F1A200EF900BCBC55 /* ProjectNotes in Resources */,
 				21870B951A1F925300985F6A /* EventDetailViewController.xib in Resources */,
+				21DDCF2B1A200BDE00BCBC55 /* EventImageCell.xib in Resources */,
 				2112DCC81A1F1C3D00C9FD5F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

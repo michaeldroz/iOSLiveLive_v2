@@ -18,6 +18,12 @@ class EventsViewController: UITableViewController {
     
     }
     
+    @IBAction func addNewItem(sender: AnyObject) {
+        // create a new Item and add it to the store
+           }
+
+    
+    
     override init(style: UITableViewStyle) {
         println("I am inside override init")
 //        TODO: Add Style .Plain 
@@ -26,6 +32,19 @@ class EventsViewController: UITableViewController {
         
         
         super.init(nibName: nil, bundle: nil)
+        
+        let addItem = UIBarButtonItem(barButtonSystemItem: .Add,
+            target: self,
+            action: "addNewItem:")
+        
+        
+        // set this bar button item as the right item in the navItem
+        navigationItem.rightBarButtonItem = addItem
+        
+        navigationItem.title = "LivLive Events"
+        
+        navigationItem.leftBarButtonItem = editButtonItem()
+        
     }
     
     override func viewDidLoad() {
@@ -41,6 +60,9 @@ class EventsViewController: UITableViewController {
         println("I am about to call fectchFeed")
         fetchFeed()
        // super.viewDidLoad()
+        
+        //Uncomment this section to control the rowHeight, this is key to implement my design. 
+        //tableView.rowHeight = 80
 
 
     }
@@ -80,9 +102,18 @@ class EventsViewController: UITableViewController {
         
         return cell
         
-        
-    
     }
+    
+    
+    //Create and show EventDeailViewController
+   override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    
+    
+        let vc = EventDetailViewController(nibName: "EventDetailViewController", bundle: nil)
+        navigationController?.pushViewController(vc, animated: true)
+
+    }
+
     
     func fetchFeed() {
         

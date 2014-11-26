@@ -1,0 +1,24 @@
+TODO:
+
+1. Delete EventDetailViewController.xib file, it's no longer needed. I'll create the view programatically using the EventDetailViewController.swift file and supporting individual EventCell.xib files. Basically looping through the eventContentArray and displaying content items on the view like a normal social feed.
+
+
+2. Remove hackathon troubleshooting println() in the EventsViewController file.
+
+3. Hook up the GeoSheepFencing project. Includes the ability to identify the users location, use those coordinates to do a lookup of close by events using the FireBase db. Then render the users events based on their geoLocation.
+
+4. Extend mocked up JSON to includ contentArrays for each event. contentArray
+
+
+
+CURRENT FOCUS:
+Passing data between two view controllers:
+1. Setup variables in second controller
+2. Setup data structure (JSON)
+
+
+Generic structure:
+events {["id":"1", "title":"This is the title", "description":"This is the description:, "data":"01/12/15" {
+
+
+
